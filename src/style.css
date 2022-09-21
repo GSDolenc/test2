@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  }
+
+h2 {
+    text-shadow: 1px 1px 0px #000000;
+    background-color: #353434;
+    border-radius: 5px;
+}

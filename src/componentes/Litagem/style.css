@@ -1,0 +1,80 @@
+
+
+.ListaUsuarios {
+    display: flex;
+    list-style: none;
+    grid-gap: 0rem;
+}
+
+
+table{
+    width: 100%;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+    margin: 0;
+    
+}
+
+.Logo {
+    font-family: Heebo;
+    font-weight: 700;
+    color: #dbdfdd;
+
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+
+    max-width: auto;
+    margin: 0 auto;
+    min-width: 592px;
+
+    height: 100px;
+}
+
+.linkPages {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    padding: 8px;
+    border: 1px solid #CCC;
+    
+}
+
+.icons {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.iconDelet {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #FF0000;
+    
+}
+
+th, td {
+    border: 1px solid #111;
+    padding: 1vh;
+    height: 1vh;
+    width: 10vh;
+    background-color: rgb(104, 103, 103);
+
+}
+
